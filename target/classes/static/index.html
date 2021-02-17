@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="col" style="text-align: center">
+    <h1>Sorting web App</h1>
+</div>
+
+<div class="col" style="text-align: center">
+    <h2>Enter the numbers to be sorted</h2>
+    <input id="inputNumbers" type="text" id="tentacles" name="tentacles">
+    <input id="sortButton" type="button" onclick="webapp.sortNumbers()" value="sort"></input>
+</div>
+<br/>
+<div class="row" style="text-align: center">
+    <div class="col">
+        <div>
+            <p id = "sortedList"> Sorted List : </p>
+            <p id = "sum"> Sum : </p>
+            <p id = "average"> Average : </p>
+        </div>
+    </div>
+</div>
+</body>
+<script src="webapp.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</html>
